@@ -42,7 +42,7 @@ export function PublicLayout() {
           <b>Nos actions</b>
           <Link to="/signaler">Signaler une zone</Link>
           <Link to="/carte">Suivre les interventions</Link>
-          <Link to="/benevolat">{'Devenir b\u00e9n\u00e9vole'}</Link>
+          <Link to="/benevolat">Devenir membre de l’ASBL LOBI</Link>
           <Link to="/don">Faire un don</Link>
           <Link to="/actions">Nos campagnes</Link>
         </div>
