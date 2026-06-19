@@ -1,14 +1,26 @@
-import { HomeCta, HomeHero, HomeMapFunding, LeaderPanel, LiveNewsStrip, QuickActions, VolunteerAndNews } from '../../components/public/HomeSections'
+import {
+  HomeCta,
+  HomeHero,
+  HomeMapSection,
+  ImpactSection,
+  LiveNewsStrip,
+  NewsSection,
+  PartnersSection,
+  ProgrammesSection,
+  QuickActions,
+} from '../../components/public/HomeSections'
 
 export function HomePage() {
   return (
-    <main className="mock-page">
+    <main className="mock-page un-home">
       <HomeHero />
       <LiveNewsStrip />
       <QuickActions />
-      <LeaderPanel />
-      <HomeMapFunding />
-      <VolunteerAndNews />
+      <ImpactSection />
+      <ProgrammesSection />
+      <NewsSection />
+      <HomeMapSection />
+      <PartnersSection />
       <HomeCta />
     </main>
   )
